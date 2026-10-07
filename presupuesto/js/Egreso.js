@@ -12,7 +12,7 @@ class Egreso extends Dato {
         this._id = ++Egreso.contadorEgresos;
     }
 
-    // Método get para retornar el valor del ID. Sin método set para proteger la variable[cite: 24]
+    // Método get para retornar el valor del ID. Sin método set para proteger la variable
     get id() {
         return this._id;
     }
